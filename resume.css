@@ -1,0 +1,62 @@
+.mainDiv{
+background: teal;
+display: flex;
+justify-content: space-between;
+}
+.leftDiv{
+  text-align: center;
+  width: 25%;
+  height: auto;
+  position: fixed;
+  background: grey;
+}
+.rightDiv{
+  margin-left: 26%;
+  width: 80%;
+  background: #adaeda;
+  padding: 10px;
+}
+.image1{
+  margin-top:5px;
+  width:40%;
+  border-radius: 15px;
+}
+@media all and (min-width:500px) and (max-width:750px){
+  body{
+    background: red;
+  }
+
+  .mainDiv{
+    width: 100%;
+    flex-wrap: wrap;
+  }
+.leftDiv{
+  width:100%;
+  position: relative;
+  display: flex;
+  margin: 0%;
+}
+.child2{
+  margin-left: 1em;
+
+}
+.rightDiv{
+  width: 100%;
+  margin-left: 0%;
+}
+}
+@media all and (min-width:360px) and (max-width:499px){
+  .mainDiv{
+    background: #addeea;
+    width: 100%;
+
+}
+  .leftDiv{
+    width:100%;
+    display: flex;
+}
+.rightDiv{
+  width:100%;
+  margin-left: 0%
+}
+}
